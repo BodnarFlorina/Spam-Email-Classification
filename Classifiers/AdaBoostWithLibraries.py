@@ -37,7 +37,7 @@ class AdaBoostWithLibraries:
         self.train(X_train, y_train)
         y_pred_train = self.predict(X_train)
         self.accuracy = accuracy_score(y_train, y_pred_train)
-        print('AdaBoost Spam Clasificator implementat cu biblioteci externe')
+        print('AdaBoost Spam Clasificator implementat cu biblioteci externe...')
         print()
         print(f"Acuratețea la antrenare obținută este de: {self.accuracy * 100:.2f}%")
 

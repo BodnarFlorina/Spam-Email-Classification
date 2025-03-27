@@ -36,7 +36,7 @@ class KNNClassifierWithLibraries:
         self.train(X_train, y_train)
         y_pred_train = self.predict(X_train)
         self.accuracy = accuracy_score(y_train, y_pred_train)
-        print('5-NN Spam Clasificator implementat cu biblioteci externe')
+        print('5-NN Spam Clasificator implementat cu biblioteci externe...')
         print()
         print(f"Acuratețea la antrenare obținută este de: {self.accuracy * 100:.2f}%")
 
